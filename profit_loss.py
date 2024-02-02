@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 
 def calculate_net_profit():
-    file_path = Path.cwd() / "project_group" / "csv_reports" / "Profits_and_Loss.csv"
+    file_path = Path.cwd() / "csv_reports" / "Profits_and_Loss.csv"
     
     with file_path.open(mode="r", encoding="UTF-8", newline="") as file:
         reader = csv.reader(file)
