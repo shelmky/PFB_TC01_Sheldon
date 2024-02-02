@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 
 def calculate_cash_on_hand():
-    file_path = Path.cwd() / "project_group" / "csv_reports" / "Cash-On-Hand.csv"
+    file_path = Path.cwd() / "csv_reports" / "Cash-On-Hand.csv"
     
     with file_path.open(mode="r", encoding="UTF-8", newline="") as file:
         reader = csv.reader(file)
