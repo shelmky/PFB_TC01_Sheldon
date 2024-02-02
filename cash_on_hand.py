@@ -1,6 +1,5 @@
 from pathlib import Path
 import csv
-
 def calculate_cash_on_hand():
     file_path = Path.cwd() / "project_group" / "csv_reports" / "Cash-On-Hand.csv"
     
